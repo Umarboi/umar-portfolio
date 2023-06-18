@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(230, 241, 65) 0%,
+        rgb(238, 217, 160) 50%,
+        rgb(226, 147, 147) 50%,
+        rgb(61, 184, 143) 100%
+    );
+}
+
+.middle1{
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(8, 110, 80);
+
+}
+
+.para{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+img{
+    height: 300x;
+    width: 300px;
+    border: solid;
+    border-style:outset;
+}

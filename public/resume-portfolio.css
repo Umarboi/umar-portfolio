@@ -1,0 +1,31 @@
+body{
+    height: 100vh;
+    background: linear-gradient(
+        to right,
+        rgb(117, 116, 211) 0%,
+        rgb(160, 220, 238) 50%,
+        rgb(157, 231, 206) 50%,
+        rgb(46, 196, 146) 100%
+    );
+}
+
+.middle1{
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(15, 8, 110);
+
+}
+
+.middle{
+    font-style:oblique;
+    text-align: center;
+    font-size: 20px;
+    color:darkblue;
+}
+
+img{
+    border-style:outset;
+    height: 300px;
+    width: 300px;
+}
