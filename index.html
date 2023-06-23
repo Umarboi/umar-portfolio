@@ -4,35 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
     <title>Portfolio</title>
 </head>
 <body>
-    <h1 class="middle1">Hey!! My name is Ghure Umar and this is my Portfolio.</h1>
-    <hr />
+    <header class="header">
+        <a href="#" class="logo">Umar.</a>
 
-    <p class="middle">Hello, everyone! I'm thrilled to introduce myself as a new web developer. 
-        My passion for technology and creativity has led me to embark on this exciting journey into the world of web development.
-        With each passing day, I'm eager to expand my skills and contribute to the ever-evolving digital landscape.</p>
-    <p class="middle">As a web developer, I specialize in creating dynamic and user-friendly websites.
-         My primary focus is on building robust and responsive web applications using modern front-end and back-end technologies.
-         I'm proficient in HTML, CSS, and JavaScript, which form the foundation of web development.</p>
-    <p><h3>Below is my work that shows my projects that i have build and my resume:</h3></p>
-    <hr />
+        <nav class="navbar">
+            <a href="./index.html" class="active">Home</a>
+            <a href="./public/about.html">About</a>
+            <a href="./public/contact.html">Contact</a>
+        </nav>
+    </header>
 
-    <a id="project-img" href="./public/projects.html"><img src="./images/rocket-launch.gif"/>Projects</a>
-    <a id="resume-img" href="./public/resume.html"><img src="./images/recruitment.gif"/>Resume</a>
-    <hr />
+    <section class="home">
+        <div class="home-cont">
+            <h1>Hey, I'm Mohd Umar Ghure</h1>
+            <h3>A Web Enthusiast</h3>
+            <p>I am currently in my fourth year of bachelor's degree in engineering in the branch electronics and telecommunication.
+                I like designing websites and web pages from absolute begining. Though I am in my begining stages but I know I'll become a master in this field.
+            </p>
 
-    <ul>
-        <li><a href="./public/about.html">About Me</a></li>
-        <li><a href="./public/contact.html">Let's Connect</a></li>
-    </ul>
-    <hr />
+            <div class="button-box">
+                <a href="./public/projects.html">My Projects</a>
+                <a href="./public/resume.html">My Resume</a>
+            </div>
+        </div>
 
-    <footer>@ A project by Umar Ghure.All Right Reserved</footer>
+        <div class="home-info">
+            <a href="https://www.linkedin.com/in/gmumar/"><i class='bx bxl-linkedin-square'></i></a>
+            <a href="https://github.com/Umarboi"><i class='bx bxl-github' ></i></a>
 
+        </div>
+        <img src="./images/Personalization-amico.png">    
 
-
-    
+    </section>
+  
 </body>
 </html>
