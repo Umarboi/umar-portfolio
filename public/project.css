@@ -1,0 +1,184 @@
+*{
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body{
+    background: rgb(144, 144, 245);
+}
+
+.proj-button1{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 100%;
+        background: rgb(15, 0, 99);
+        border: 2px solid rgb(69, 39, 206);
+        border-radius: 8px;
+        font-size: 19px;
+        color: rgb(144, 144, 245);
+        text-decoration: none;
+        font-weight: 500;
+        letter-spacing: 1px;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s;
+    }
+.proj-button1{
+        color: rgb(69, 39, 206);
+}
+.proj-button1 a:hover{
+    color: rgb(69, 39, 206);
+}
+
+.proj-button1 a:nth-child(2){
+    background: transparent;
+    color: rgb(69, 39, 206);
+}
+.proj-button1 a:nth-child(2):hover{
+    color: rgb(144, 144, 245);
+}
+.proj-button1 a:nth-child(2)::before{
+    background: rgb(69, 39, 206);
+}
+
+.proj-button1 a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: rgb(144, 144, 245);
+    z-index: -1;
+    transition: .5s;
+}
+.proj-button1 a:hover::before{
+    width: 100%;
+}
+
+.proj-button2{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    background: rgb(15, 0, 99);
+    border: 2px solid rgb(69, 39, 206);
+    border-radius: 8px;
+    font-size: 19px;
+    color: rgb(144, 144, 245);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.proj-button2{
+    color: rgb(69, 39, 206);
+}
+.proj-button2 a:hover{
+color: rgb(69, 39, 206);
+}
+
+.proj-button2 a:nth-child(2){
+background: transparent;
+color: rgb(69, 39, 206);
+}
+.proj-button2 a:nth-child(2):hover{
+color: rgb(144, 144, 245);
+}
+.proj-button2 a:nth-child(2)::before{
+background: rgb(69, 39, 206);
+}
+
+.proj-button2 a::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: rgb(144, 144, 245);
+z-index: -1;
+transition: .5s;
+}
+.proj-button2 a:hover::before{
+width: 100%;
+}
+
+.proj-button3{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
+    background: rgb(15, 0, 99);
+    border: 2px solid rgb(69, 39, 206);
+    border-radius: 8px;
+    font-size: 19px;
+    color: rgb(144, 144, 245);
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+.proj-button3{
+    color: rgb(69, 39, 206);
+}
+.proj-button3 a:hover{
+color: rgb(69, 39, 206);
+}
+
+.proj-button3 a:nth-child(2){
+background: transparent;
+color: rgb(69, 39, 206);
+}
+.proj-button3 a:nth-child(2):hover{
+color: rgb(144, 144, 245);
+}
+.proj-button3 a:nth-child(2)::before{
+background: rgb(69, 39, 206);
+}
+
+.proj-button3 a::before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 0;
+height: 100%;
+background: rgb(144, 144, 245);
+z-index: -1;
+transition: .5s;
+}
+.proj-button3 a:hover::before{
+width: 100%;
+}
+.middle1{
+    font-style: italic;
+    font-size: 45px;
+    text-align: center;
+    color: rgb(69, 39, 206);
+
+}
+
+.para{
+    font-size: 20px;
+    text-align: justify;
+
+}
+
+img{
+    height: 300x;
+    width: 300px;
+    border: solid;
+    border-style:outset;
+}
